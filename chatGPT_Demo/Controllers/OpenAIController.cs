@@ -21,8 +21,8 @@ namespace chatGPT_Demo.Controllers
         [Route("api/chat")]
         public async Task<IActionResult> UseChatGPT([FromBody] string userQuestion)
         {
-            var apiKey = "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";
-            var baseUrl = "https://api.openai.com/v1/chat/completions";
+            var apiKey = "";
+            var baseUrl = "";
 
             var client = _clientFactory.CreateClient();
 
