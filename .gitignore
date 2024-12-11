@@ -362,5 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-appsettings.json
-appsettings.Development.json
+/chatGPT_Demo/appsettings.Development.json
+/chatGPT_Demo/appsettings.json
